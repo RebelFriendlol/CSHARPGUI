@@ -24,5 +24,11 @@ namespace testgithub
         {
             InitializeComponent();
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            //eloooo elo elo eloeoeloel
+            
+        }
     }
 }
