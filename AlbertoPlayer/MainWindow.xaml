@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AlbertoPlayer"
         mc:Ignorable="d"
-        Title="Alberto" Height="450" Width="800">
+        Title="Alberto" Height="450" Width="800" Background="#FF292323" Foreground="{x:Null}">
     <Grid>
+        <Label x:Name="Tekst" Content="Alberto :)
+               " HorizontalAlignment="Center" Foreground="#FFF9F9F9" VerticalAlignment="Top" Height="113" Width="304" Background="{x:Null}" FontSize="72" FontFamily="Bahnschrift" Opacity="0.995" Margin="0,104,0,0"/>
 
     </Grid>
 </Window>
