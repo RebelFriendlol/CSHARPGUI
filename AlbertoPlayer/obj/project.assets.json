@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\megek\\source\\repos\\AlbertoPlayer\\AlbertoPlayer.csproj",
+      "projectUniqueName": "C:\\Users\\megek\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
       "projectName": "AlbertoPlayer",
-      "projectPath": "C:\\Users\\megek\\source\\repos\\AlbertoPlayer\\AlbertoPlayer.csproj",
+      "projectPath": "C:\\Users\\megek\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
       "packagesPath": "C:\\Users\\megek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\megek\\source\\repos\\AlbertoPlayer\\obj\\",
+      "outputPath": "C:\\Users\\megek\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
