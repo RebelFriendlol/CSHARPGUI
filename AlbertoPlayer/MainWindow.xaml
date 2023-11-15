@@ -5,10 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AlbertoPlayer"
         mc:Ignorable="d"
-        Title="Alberto" Height="450" Width="800" Background="#FF292323" Foreground="{x:Null}">
+        Title="AlbertoPlayer" Height="768" Width="1366" Background="#FF292323" Foreground="{x:Null}">
     <Grid>
-        <Label x:Name="Tekst" Content="Alberto :)
-               " HorizontalAlignment="Center" Foreground="#FFF9F9F9" VerticalAlignment="Top" Height="113" Width="304" Background="{x:Null}" FontSize="72" FontFamily="Bahnschrift" Opacity="0.995" Margin="0,104,0,0"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="80*"></RowDefinition>
+            <RowDefinition Height="15*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!-- ODTWARZACZ + UTWÓR -->
+        <TextBlock  Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Height="113" FontFamily="Arial Black" FontSize="26" Background="#0C0705" Foreground="red" Opacity="0.9" ><Run/><LineBreak/><Run Text="OBRAZEK I NAZWA UTWORU"/></TextBlock>
+        <Rectangle Grid.Column="1" Grid.Row="2" Fill="#0C0705" Opacity="0.8"/>
+        <Button Grid.Column="1" Content="Play" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="50" Width="66"/>
+        <Button Grid.Column="1" Content="Prev" HorizontalAlignment="Left" Margin="451,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36"/>
+        <Button Grid.Column="1" Content="Next" HorizontalAlignment="Left" Margin="591,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36"/>
+        <Button Grid.Column="1" Content="Shuffle" HorizontalAlignment="Left" Margin="400,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36"/>
+        <Button Grid.Column="1" Content="Loop" HorizontalAlignment="Left" Margin="642,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36"/>
+        <ProgressBar Grid.Column="1" HorizontalAlignment="Center" Height="10" Margin="0,80,0,0" Grid.Row="2" VerticalAlignment="Top" Width="542"/>
+
+        <!-- PANEL Z LEWEJ -->
+        <Rectangle Grid.Column="0" Grid.Row="1" Fill="#0C0705" Opacity="0.9"/>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label FontSize="30" Content="Menu" Foreground="white" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top"/>
+            <Button FontSize="18" Margin="0, 20, 0, 20">Biblioteka</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20">Playlista</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20">Ustawienia</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20">Sklep</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20">Itp.</Button>
+        </StackPanel>
+
+
+        <!-- PASEK U GÓRY -->
+        <Rectangle Grid.Row="0" Grid.Column="0" Fill="#0C0705" Opacity="0.9" Grid.ColumnSpan="2" />
+        <Image Name="idk" Grid.Row="0" Grid.Column="0" Source="assets\pepsi.png" Margin="1,2,224,2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="70,0,0,0" TextWrapping="Wrap" Text="Nazwa użytkownika itd." VerticalAlignment="Center" FontSize="14" Foreground="White" Width="155"/>
+
+        <!-- GŁÓWNA ZAWARTOŚĆ -->
+        <Rectangle Grid.Column="1" Grid.Row="1" Fill="#450f04" />
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,226,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
+
+
 
     </Grid>
+
 </Window>

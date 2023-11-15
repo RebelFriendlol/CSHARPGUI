@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:AlbertoPlayer"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <BitmapImage x:Key="logo" UriSource="assets\pepsi.png"></BitmapImage>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

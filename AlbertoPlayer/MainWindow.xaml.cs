@@ -24,5 +24,15 @@ namespace AlbertoPlayer
         {
             InitializeComponent();
         }
+
+        private void McScroller_ValueChanged()
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
