@@ -47,6 +47,7 @@
         <!-- GŁÓWNA ZAWARTOŚĆ -->
         <Rectangle Grid.Column="1" Grid.Row="1" Fill="#450f04" />
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,226,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="273,387,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069" Grid.ColumnSpan="2"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
 
 
 
