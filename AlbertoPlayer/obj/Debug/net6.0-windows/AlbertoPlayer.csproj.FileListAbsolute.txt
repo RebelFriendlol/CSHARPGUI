@@ -73,3 +73,30 @@ C:\Users\User\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6
 C:\Users\User\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\ref\AlbertoPlayer.dll
 C:\Users\User\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\alberto4.png
 C:\Users\User\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\Font Awesome 6 Free-Solid-900.otf
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\Alberto.jpg
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\alberto4.png
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\pepsi.png
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\Font Awesome 6 Free-Solid-900.otf
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.exe
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.deps.json
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.runtimeconfig.json
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.dll
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.pdb
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer_Content.g.cs
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer_MarkupCompile.cache
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer_MarkupCompile.lref
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\App.baml
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.g.resources
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.AssemblyInfoInputs.cache
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.AssemblyInfo.cs
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.csproj.CoreCompileInputs.cache
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.dll
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\refint\AlbertoPlayer.dll
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.pdb
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.genruntimeconfig.cache
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\ref\AlbertoPlayer.dll
+C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\zsm.png
