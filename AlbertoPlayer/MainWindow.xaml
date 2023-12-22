@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AlbertoPlayer"
         mc:Ignorable="d"
         Title="AlbertoPlayer" Height="768" Width="1366" Background="#101010" Foreground="{x:Null}">
-    <Grid>
+    <Grid Name="MainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20*"/>
             <ColumnDefinition Width="78.5*"/>
@@ -18,40 +18,64 @@
             <RowDefinition Height="15*"></RowDefinition>
         </Grid.RowDefinitions>
         <!-- ODTWARZACZ + UTWÓR -->
-            <TextBlock  Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Height="113" FontFamily="Arial Black" FontSize="26" Background="#2222" Foreground="red" Opacity="1" ><Run/><LineBreak/><Run Text="OBRAZEK I NAZWA UTWORU"/></TextBlock>
-            <Rectangle Grid.Column="1" Grid.Row="2" Fill="#111111 " Opacity="1"/>
-            <Button Grid.Column="1" Content="&#xf144;" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="50" Width="66" Background="White" FontFamily="./#Font Awesome 6 Free Solid" Cursor="Hand"/>
-            <Button Grid.Column="1" Content="&#xf048;" HorizontalAlignment="Left" Margin="451,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" Background="White" FontFamily="./#Font Awesome 6 Free Solid" Cursor="Hand"/>
-            <Button Grid.Column="1" Content="&#xf051;" HorizontalAlignment="Left" Margin="591,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" Background="White" FontFamily="./#Font Awesome 6 Free Solid" Cursor="Hand"/>
-            <Button Grid.Column="1" Content="&#xf074;" HorizontalAlignment="Left" Margin="400,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" Background="White" FontFamily="./#Font Awesome 6 Free Solid" Cursor="Hand"/>
-            <Button Grid.Column="1" Content="&#xf2ea;" HorizontalAlignment="Left" Margin="642,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" Background="White" FontFamily="./#Font Awesome 6 Free Solid" Cursor="Hand"/>
-            <ProgressBar Grid.Column="1" HorizontalAlignment="Center" Height="7" Margin="0,85,0,0" Grid.Row="2" VerticalAlignment="Top" Width="683" Background="white"/>
+        <TextBlock  Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Height="113" FontFamily="Arial Black" FontSize="26" Background="#2222" Foreground="white" Opacity="1" ><Run/><LineBreak/><Run Text="OBRAZEK I NAZWA UTWORU"/></TextBlock>
+        <Rectangle Grid.Column="1" Grid.Row="2" Fill="#111111 " Opacity="1"/>
+        <Button x:Name="Play" Grid.Column="1" Content="" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="50" Width="66" FontFamily="Impact" Cursor="Hand" Click="Play_Click" BorderBrush="{x:Null}" Foreground="Black">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/PlayButton.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
 
-            <!-- PANEL Z LEWEJ -->
-            <Rectangle Grid.Column="0" Grid.Row="1" Fill="#2222" Opacity="1"/>
-            <StackPanel Grid.Row="1" Grid.Column="0">
-                <Label FontSize="30" Content="Menu" Foreground="white" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top"/>
-                <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Biblioteka</Button>
-                <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Playlista</Button>
-                <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Ustawienia</Button>
-                <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Sklep</Button>
-                <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Itp.</Button>
-            </StackPanel>
+        <Button x:Name="Previous" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="451,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" FontFamily="Impact" Cursor="Hand" Click="Previous_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/back.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Forward" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="591,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" FontFamily="Impact" Cursor="Hand" BorderBrush="{x:Null}" Click="Forward_Click">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="/assets/next.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Randomize" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="400,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" FontFamily="Impact" Cursor="Hand" BorderBrush="{x:Null}" Click="Randomize_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/random.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Repeat" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="642,20,0,0" Grid.Row="2" VerticalAlignment="Top" Height="30" Width="36" FontFamily="Impact" Cursor="Hand" BorderBrush="{x:Null}" Click="Repeat_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/repeat.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <ProgressBar Grid.Column="1" HorizontalAlignment="Center" Height="7" Margin="0,85,0,0" Grid.Row="2" VerticalAlignment="Top" Width="683" Background="white"/>
+        <!-- PANEL Z LEWEJ -->
+        <Rectangle Grid.Column="0" Grid.Row="1" Fill="#2222" Opacity="1"/>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label FontSize="30" Content="Menu" Foreground="white" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top"/>
+            <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Biblioteka</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Playlista</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Ustawienia</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Sklep</Button>
+            <Button FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Itp.</Button>
+        </StackPanel>
 
 
-            <!-- PASEK U GÓRY -->
-            <Rectangle Grid.Row="0" Grid.Column="0" Opacity="1" Fill="#111111" />
-            <Rectangle Grid.Row="0" Grid.Column="1" Opacity="1" Fill="#2222"  />
-            <Image Name="idk" Grid.Row="0" Grid.Column="0" Source="assets\alberto_logo.png" Margin="1,2,181,2" Cursor="Hand"/>
-            <TextBlock HorizontalAlignment="Left" Margin="100,0,0,0" TextWrapping="Wrap" Text="Nazwa użytkownika itd." VerticalAlignment="Center" FontSize="14" Foreground="White" Width="155"/>
+        <!-- PASEK U GÓRY -->
+        <Rectangle Grid.Row="0" Grid.Column="0" Opacity="1" Fill="#111111" />
+        <Rectangle Grid.Row="0" Grid.Column="1" Opacity="0.4" Fill="#202020"  />
+        <Image Grid.Row="0" Grid.Column="0" Source="/alberto_logo.png" Margin="1,2,181,2" Cursor="Hand">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/alberto_logo.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="100,0,0,0" TextWrapping="Wrap" Text="Nazwa użytkownika itd." VerticalAlignment="Center" FontSize="14" Foreground="White" Width="155"/>
         <ScrollViewer Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" Background="white" HorizontalAlignment="right" VerticalScrollBarVisibility="visible" />
 
         <!-- GŁÓWNA ZAWARTOŚĆ -->
-            <Rectangle Grid.Column="1" Grid.Row="1" Fill="	#202020" Opacity="0.4" />
-            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,50,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
-            <TextBlock HorizontalAlignment="Left" Margin="273,220,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069" Grid.ColumnSpan="2"><Run Language="pl-pl" Text="ALBUMY "/></TextBlock>
-            <TextBlock HorizontalAlignment="Left" Margin="273,390,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069" Grid.ColumnSpan="2"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
-            <Image Grid.Row="1" Grid.Column="1" Width="200" Source="assets/zsm.png"  />
+        <Rectangle Grid.Column="1" Grid.Row="1" Fill="	#202020" Opacity="0.4" />
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,50,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="273,220,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069" Grid.ColumnSpan="2"><Run Language="pl-pl" Text="ALBUMY "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="273,390,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069" Grid.ColumnSpan="2"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
+        <Image Grid.Row="1" Grid.Column="1" Width="200" Source="assets/zsm.png"  />
 
     </Grid>
 

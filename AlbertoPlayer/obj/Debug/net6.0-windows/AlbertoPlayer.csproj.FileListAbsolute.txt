@@ -100,7 +100,6 @@ C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debu
 C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.genruntimeconfig.cache
 C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\ref\AlbertoPlayer.dll
 C:\Users\admin-gr03\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\zsm.png
-C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\Font Awesome 6 Free-Solid-900.otf
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.exe
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.deps.json
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\AlbertoPlayer.runtimeconfig.json
@@ -125,3 +124,12 @@ C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\Alb
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.genruntimeconfig.cache
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\ref\AlbertoPlayer.dll
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\alberto_logo.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\back.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\next.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\pause.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\random.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\repeat.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\random.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\repeat.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\PlayButton.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\PlayButton.png
