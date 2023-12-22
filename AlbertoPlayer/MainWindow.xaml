@@ -42,7 +42,7 @@
             <!-- PASEK U GÓRY -->
             <Rectangle Grid.Row="0" Grid.Column="0" Opacity="1" Fill="#111111" />
             <Rectangle Grid.Row="0" Grid.Column="1" Opacity="1" Fill="#2222"  />
-            <Image Name="idk" Grid.Row="0" Grid.Column="0" Source="assets\alberto4.png" Margin="1,2,181,2" Cursor="Hand"/>
+            <Image Name="idk" Grid.Row="0" Grid.Column="0" Source="assets\alberto_logo.png" Margin="1,2,181,2" Cursor="Hand"/>
             <TextBlock HorizontalAlignment="Left" Margin="100,0,0,0" TextWrapping="Wrap" Text="Nazwa użytkownika itd." VerticalAlignment="Center" FontSize="14" Foreground="White" Width="155"/>
         <ScrollViewer Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" Background="white" HorizontalAlignment="right" VerticalScrollBarVisibility="visible" />
 

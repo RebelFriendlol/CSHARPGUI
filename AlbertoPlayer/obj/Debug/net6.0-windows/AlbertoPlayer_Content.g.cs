@@ -8,10 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/alberto.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/alberto4.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/pepsi.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/zsm.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/alberto_logo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("font%20awesome%206%20free-solid-900.otf")]
 
 
