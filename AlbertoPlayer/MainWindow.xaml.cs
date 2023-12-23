@@ -1,63 +1,106 @@
 ﻿using System;
+using System.Configuration;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Xml;
 
 namespace AlbertoPlayer
 {
     public partial class MainWindow : Window
     {
-        private Button playButton;
+        private readonly Button playButton = new Button
+        {
+            // Set the initial image for the playButton
+            Content = new Image
+            {
+                Source = new BitmapImage(new Uri("PlayButton.png", UriKind.Relative)),
+                Width = 50,
+                Height = 50
+            },
+
+            // Set the button background to transparent
+            Background = Brushes.Transparent,
+
+            // Set the button border brush to transparent
+            BorderBrush = Brushes.Transparent,
+
+            // Set alignment properties
+            HorizontalAlignment = HorizontalAlignment.Left, // Adjust as needed
+            VerticalAlignment = VerticalAlignment.Top,
+
+            // Set content alignment properties
+            HorizontalContentAlignment = HorizontalAlignment.Center,
+            VerticalContentAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(515, 15, 0, 0) // Adjust margin as needed
+        };
+
 
         public MainWindow()
         {
             InitializeComponent();
 
-            playButton = new Button
-            {
-                Content = new Image
-                {
-                    Source = new BitmapImage(new Uri("PlayButton.png", UriKind.Relative)),
-                    Width = 50, // Ustawienie szerokości obrazka (dostosuj do potrzeb)
-                    Height = 50 // Ustawienie wysokości obrazka (dostosuj do potrzeb)
-                }
-            };
-
-            // Dodanie obsługi zdarzenia Click
+            // Add a Click event handler for the playButton
             playButton.Click += Play_Click;
 
-            // Dodanie przycisku do MainGrid
-            Grid.SetColumn(playButton, 1); // Ustawienie kolumny w MainGrid
-            Grid.SetRow(playButton, 2);    // Ustawienie wiersza w MainGrid
-            MainGrid.Children.Add(playButton);
+            // Add a MouseEnter event handler for hover effect
+            playButton.MouseEnter += PlayButton_MouseEnter;
+
+            // Add a MouseLeave event handler for hover effect
+            playButton.MouseLeave += PlayButton_MouseLeave;
+
+            // Set up the main grid
+            Grid.SetColumn(playButton, 1); // Adjust column index as needed
+            Grid.SetRow(playButton, 2);    // Adjust row index as needed
+            MainGrid.Children.Add(playButton); // Use playButton instead of Play
         }
 
         private void Play_Click(object sender, RoutedEventArgs e)
         {
-            // Zmiana obrazka na Pause po kliknięciu
-            playButton.Content = new Image
-            {
-                Source = new BitmapImage(new Uri("/assets/pause.png",UriKind.Relative)),
-                Width = 50, // Ustawienie szerokości obrazka (dostosuj do potrzeb)
-                Height = 50 // Ustawienie wysokości obrazka (dostosuj do potrzeb)
-            };
+            // Toggle the image and handle the Click event accordingly
+            string currentImagePath = ((Image)playButton.Content).Source.ToString();
 
-            // Dodanie obsługi zdarzenia Click dla Pause (opcjonalne)
-            playButton.Click -= Play_Click;
-            playButton.Click += Pause_Click;
+            if (currentImagePath.Contains("PlayButton.png"))
+            {
+                // Change to Pause image
+                ((Image)playButton.Content).Source = new BitmapImage(new Uri("/assets/pause.png", UriKind.Relative));
+
+                // Set the button background to transparent
+                playButton.Background = Brushes.Transparent;
+                playButton.BorderBrush = Brushes.Transparent;
+
+                // Add event handler for Pause
+                playButton.Click -= Play_Click;
+                playButton.Click += Pause_Click;
+            }
+            else
+            {
+                // Change to Play image
+                ((Image)playButton.Content).Source = new BitmapImage(new Uri("/assets/PlayButton.png", UriKind.Relative));
+
+                // Set the button background to transparent
+                playButton.Background = Brushes.Transparent;
+                playButton.BorderBrush = Brushes.Transparent;
+
+                // Add event handler for Play
+                playButton.Click -= Pause_Click;
+                playButton.Click += Play_Click;
+            }
         }
 
         private void Pause_Click(object sender, RoutedEventArgs e)
         {
-            // Zmiana obrazka na Play po kliknięciu
-            playButton.Content = new Image
-            {
-                Source = new BitmapImage(new Uri("/assets/PlayButton.png", UriKind.Relative)),
-                Width = 50, // Ustawienie szerokości obrazka (dostosuj do potrzeb)
-                Height = 50 // Ustawienie wysokości obrazka (dostosuj do potrzeb)
-            };
+            // Change the image to PlayButton.png after clicking Pause
+            ((Image)playButton.Content).Source = new BitmapImage(new Uri("/assets/PlayButton.png", UriKind.Relative));
 
-            // Dodanie obsługi zdarzenia Click dla Play (opcjonalne)
+            // Set the button background to transparent
+            playButton.Background = Brushes.Transparent;
+            playButton.BorderBrush = Brushes.Transparent;
+
+            // Add event handler for Play
             playButton.Click -= Pause_Click;
             playButton.Click += Play_Click;
         }
@@ -89,5 +132,38 @@ namespace AlbertoPlayer
             MessageBox.Show("Forward clicked");
             // Tutaj dodaj kod zmieniający obrazek dla przycisku Forward
         }
+
+        // Obsługa zdarzenia dla najechania myszą
+        private void PlayButton_MouseEnter(object sender, MouseEventArgs e)
+        {
+            playButton.Background = Brushes.Transparent; // Set the background to transparent
+            playButton.BorderBrush = Brushes.Transparent; // Set the border brush to transparent
+        }
+
+        // Obsługa zdarzenia dla opuszczenia myszy
+        private void PlayButton_MouseLeave(object sender, MouseEventArgs e)
+        {
+            playButton.Background = Brushes.Transparent;
+            playButton.BorderBrush = Brushes.Transparent;
+        }
+
+        private void LibraryButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContentFrame.Navigate(new Uri("/Nawigacja/LibraryPage.xaml", UriKind.Relative));
+        }
+
+        private void PlaylistButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContentFrame.Navigate(new Uri("/Nawigacja/PlaylistPage.xaml", UriKind.Relative));
+        }
+
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContentFrame.Navigate(new Uri("/Nawigacja/SettingsPage.xaml", UriKind.Relative));
+        }
+
+        private void ShopButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContentFrame.Navigate(new Uri("/Nawigacja/ShopPage.xaml", UriKind.Relative));
+        }
     }
-}

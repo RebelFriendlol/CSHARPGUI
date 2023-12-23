@@ -133,3 +133,14 @@ C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\ran
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\repeat.png
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\PlayButton.png
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\PlayButton.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\back.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\next.png
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\LibraryPage.g.cs
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\PlaylistPage.g.cs
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\SettingsPage.g.cs
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\ShopPage.g.cs
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\LibraryPage.baml
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\PlaylistPage.baml
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\SettingsPage.baml
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\nawigacja\ShopPage.baml

@@ -49,8 +49,12 @@
 
   <ItemGroup>
     <Resource Include="alberto_logo.png" />
-    <Resource Include="back.png" />
-    <Resource Include="next.png" />
+    <Content Include="back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="next.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="repeat.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

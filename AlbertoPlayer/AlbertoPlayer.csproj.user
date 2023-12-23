@@ -7,7 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="nawigacja\LibraryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="nawigacja\PlaylistPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="nawigacja\SettingsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="nawigacja\ShopPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="nawigacja\LibraryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="nawigacja\PlaylistPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="nawigacja\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="nawigacja\ShopPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
