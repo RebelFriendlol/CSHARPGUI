@@ -1,23 +1,22 @@
-﻿using System;
-using System.Configuration;
-using System.Diagnostics;
+﻿using AlbertoPlayer.pages;
+using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Xml;
 
 namespace AlbertoPlayer
 {
     public partial class MainWindow : Window
     {
+
         private readonly Button playButton = new Button
         {
             // Set the initial image for the playButton
             Content = new Image
             {
-                Source = new BitmapImage(new Uri("PlayButton.png", UriKind.Relative)),
+                Source = new BitmapImage(new Uri("/assets/PlayButton.png", UriKind.Relative)),
                 Width = 50,
                 Height = 50
             },
@@ -42,6 +41,8 @@ namespace AlbertoPlayer
         public MainWindow()
         {
             InitializeComponent();
+
+
 
             // Add a Click event handler for the playButton
             playButton.Click += Play_Click;
@@ -149,21 +150,27 @@ namespace AlbertoPlayer
 
         private void LibraryButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContentFrame.Navigate(new Uri("/Nawigacja/LibraryPage.xaml", UriKind.Relative));
+
         }
 
-        private void PlaylistButton_Click(object sender, RoutedEventArgs e)
+        private void LibraryClick(object sender, RoutedEventArgs e)
         {
-            MainContentFrame.Navigate(new Uri("/Nawigacja/PlaylistPage.xaml", UriKind.Relative));
+            Main.Content = new Library();
         }
 
-        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        private void PlaylistClick(object sender, RoutedEventArgs e)
         {
-            MainContentFrame.Navigate(new Uri("/Nawigacja/SettingsPage.xaml", UriKind.Relative));
+            Main.Content = new Playlist();
         }
 
-        private void ShopButton_Click(object sender, RoutedEventArgs e)
+        private void SettingsClick(object sender, RoutedEventArgs e)
         {
-            MainContentFrame.Navigate(new Uri("/Nawigacja/ShopPage.xaml", UriKind.Relative));
+            Main.Content = new Settings();
+        }
+
+        private void ShopClick(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Shop();
         }
     }
+}

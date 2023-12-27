@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\App.xaml
-51215204100
-12-2143029262
-92073039630
-194-1977528901
-MainWindow.xaml;nawigacja\LibraryPage.xaml;nawigacja\PlaylistPage.xaml;nawigacja\SettingsPage.xaml;nawigacja\ShopPage.xaml;
+5874795926
+6-798792020
+81629832192
+196487983811
+MainWindow.xaml;pages\Library.xaml;pages\Playlist.xaml;pages\Settings.xaml;pages\Shop.xaml;
 
 True
 

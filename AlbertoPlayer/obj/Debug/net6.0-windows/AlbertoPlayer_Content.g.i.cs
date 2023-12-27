@@ -8,17 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/alberto_logo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/back.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/next.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/pause.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/playbutton.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/random.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/repeat.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("back.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("next.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("repeat.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("playbutton.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("random.png")]
 
 

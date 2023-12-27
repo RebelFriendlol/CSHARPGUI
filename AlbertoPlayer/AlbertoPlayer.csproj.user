@@ -7,16 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="nawigacja\LibraryPage.xaml.cs">
+    <Compile Update="pages\Library.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="nawigacja\PlaylistPage.xaml.cs">
+    <Compile Update="pages\Playlist.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="nawigacja\SettingsPage.xaml.cs">
+    <Compile Update="pages\Settings.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="nawigacja\ShopPage.xaml.cs">
+    <Compile Update="pages\Shop.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -24,16 +24,16 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="nawigacja\LibraryPage.xaml">
+    <Page Update="pages\Library.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="nawigacja\PlaylistPage.xaml">
+    <Page Update="pages\Playlist.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="nawigacja\SettingsPage.xaml">
+    <Page Update="pages\Settings.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="nawigacja\ShopPage.xaml">
+    <Page Update="pages\Shop.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

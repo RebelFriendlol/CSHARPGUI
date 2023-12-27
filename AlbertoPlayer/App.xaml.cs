@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,9 @@ namespace AlbertoPlayer
     /// </summary>
     public partial class App : Application
     {
+
+        
+
+
     }
 }

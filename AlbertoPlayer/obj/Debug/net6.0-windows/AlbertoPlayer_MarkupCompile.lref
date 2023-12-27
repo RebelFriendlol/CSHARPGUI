@@ -1,8 +1,8 @@
 ﻿
 FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\App.xaml;;
 FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\MainWindow.xaml;;
-FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\nawigacja\LibraryPage.xaml;;
-FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\nawigacja\PlaylistPage.xaml;;
-FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\nawigacja\SettingsPage.xaml;;
-FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\nawigacja\ShopPage.xaml;;
+FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\pages\library.xaml;;
+FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\pages\Playlist.xaml;;
+FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\pages\Settings.xaml;;
+FC:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\pages\Shop.xaml;;
 

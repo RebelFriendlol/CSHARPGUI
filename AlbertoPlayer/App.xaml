@@ -5,7 +5,7 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
-            <BitmapImage x:Key="logo" UriSource="assets\pepsi.png"></BitmapImage>
+            <BitmapImage x:Key="logo" UriSource="/assets/alberto_logo.png"></BitmapImage>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

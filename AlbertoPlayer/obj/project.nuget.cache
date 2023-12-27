@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JShMMf/sn/D1cDZahefyS+Q2xeVHlpLT1/r2CEIbVHAzTWZ4++dmxHNf78ZKgGse4oQ6gY6M2LMwdQIMtYS76A==",
+  "dgSpecHash": "g5C9qtyHFK54fGPKnt3amQxPT7uGb9KzNXJMgmjZGkHSg9Q3aakjuSFBWc7wWIDs4yw0OC6P195zmXZeEO/hyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\48570\\Source\\Repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\48570\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\48570\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
