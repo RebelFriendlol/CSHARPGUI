@@ -148,11 +148,7 @@ namespace AlbertoPlayer
             playButton.BorderBrush = Brushes.Transparent;
         }
 
-        private void LibraryButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
+        //zmiana stron
         private void LibraryClick(object sender, RoutedEventArgs e)
         {
             Main.Content = new Library();
@@ -172,5 +168,9 @@ namespace AlbertoPlayer
         {
             Main.Content = new Shop();
         }
+
+        //skróty klawiszowe
+        
+        
     }
 }

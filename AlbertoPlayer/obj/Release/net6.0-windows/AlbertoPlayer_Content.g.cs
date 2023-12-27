@@ -8,10 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/alberto.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/alberto4.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/pepsi.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/zsm.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("font%20awesome%206%20free-solid-900.otf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/back.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/next.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/pause.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/playbutton.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/random.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/repeat.png")]
 
 

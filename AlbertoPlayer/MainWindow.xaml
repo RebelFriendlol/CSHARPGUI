@@ -7,7 +7,7 @@
         xmlns:n="clr-namespace:AlbertoPlayer"
         mc:Ignorable="d"
         Title="AlbertoPlayer" Height="768" Width="1366" Background="#101010" Foreground="{x:Null}">
-
+    
     <Grid Name="MainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20*"/>
@@ -50,10 +50,10 @@
         <Rectangle Grid.Column="0" Grid.Row="1" Fill="#2222" Opacity="1"/>
         <StackPanel Grid.Row="1" Grid.Column="0">
             <Label FontSize="30" Content="Menu" Foreground="white" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top"/>
-            <Button x:Name="libraryButton" Click="LibraryClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Biblioteka</Button>
-            <Button x:Name="playlistButton" Click="PlaylistClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Playlista</Button>
-            <Button x:Name="settingsButton" Click="SettingsClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Ustawienia</Button>
-            <Button x:Name="shopButton" Click="ShopClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}">Sklep</Button>
+            <Button x:Name="libraryButton" Click="LibraryClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Cursor="Hand">Biblioteka</Button>
+            <Button x:Name="playlistButton" Click="PlaylistClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Cursor="Hand">Playlista</Button>
+            <Button x:Name="settingsButton" Click="SettingsClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Cursor="Hand">Ustawienia</Button>
+            <Button x:Name="shopButton" Click="ShopClick" FontSize="18" Margin="0, 20, 0, 20" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Cursor="Hand">Sklep</Button>
 
         </StackPanel>
 
@@ -72,7 +72,7 @@
 
         <!-- GŁÓWNA ZAWARTOŚĆ -->
         <Grid Grid.Row="1" Grid.Column="1">
-            <Rectangle Grid.Column="1" Grid.Row="1" Fill="	#321332" Opacity="0.4" />
+            <Rectangle Grid.Column="1" Grid.Row="1" Fill="	#222222" Opacity="0.4" />
             <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,50,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Margin="10,220,0,0" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1062"><Run Language="pl-pl" Text="ALBUMY "/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Margin="10,390,0,0" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1062"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
