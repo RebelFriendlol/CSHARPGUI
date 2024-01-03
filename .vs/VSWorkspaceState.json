@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\AlbertoPlayer"
+    "\\AlbertoPlayer",
+    "\\AlbertoPlayer\\pages"
   ],
-  "SelectedNode": "\\AlbertoPlayer\\AlbertoPlayer.sln",
+  "SelectedNode": "\\AlbertoPlayer\\pages\\Settings.xaml",
   "PreviewInSolutionExplorer": false
 }

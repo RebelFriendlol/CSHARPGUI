@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0SBCbvAx83+Fx/QvHzK68vupow9UwrFzvCQB4ISjEMlnBYkD79vYji3yqGqo1cSXiYNHm8C3IQs7QRCUCb0TvA==",
+  "dgSpecHash": "Z/mPhIIlqpBrsQerG5BuxKCOYdpq8tdA8C4lhqsvvDbGNMnuiFd8r7awNAFLau2RYKOWcbp/mpl7Z+TmAa3k4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
+  "projectFilePath": "C:\\Users\\mjoot\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\48570\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\48570\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\mjoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\mjoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -8,7 +8,61 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Settings">
 
-    <Grid Background="green">
-        <TextBlock Text="strona settings" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="55"></TextBlock>
+    <Grid Background="#111111">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="30*" />
+            <ColumnDefinition Width="20*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="12*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- NAPIS USTAWIENIA-->
+        <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+        <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" BorderBrush="red" BorderThickness="0 0 0 5" />
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="Ustawienia" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="55" Foreground="white"></TextBlock>
+
+        <!-- OPIS USTAWIENIA-->
+        <Rectangle Grid.Row="1" Grid.Column="1" Grid.RowSpan="5" Fill="purple" />
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="left" >
+            <Label Content="Logo" FontSize="25"  Foreground="white" />
+            <TextBlock Text="zmien zdjecie logo" FontSize="12" Margin="5, 0, 0, 0"  Foreground="#a1a1a1"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="left">
+            <Label Content="Jezyk" FontSize="25" Foreground="white" />
+            <TextBlock Text="zmien jezyk programu" FontSize="12" Margin="5, 0, 0, 0" Foreground="#a1a1a1"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.Column="1" HorizontalAlignment="left">
+            <Label Content="Studio" FontSize="25" Foreground="White" />
+            <TextBlock Text="edytuje informacje odnosnie studia" FontSize="12" Margin="5, 0, 0, 0" Foreground="#a1a1a1"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Grid.Column="1" HorizontalAlignment="left">
+            <Label Content="Tryb Nocny" FontSize="25" Foreground="White" />
+            <TextBlock Text="zmienia wyglad na ciemny" FontSize="12" Margin="5, 0, 0, 0" Foreground="#a1a1a1"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5" Grid.Column="1" HorizontalAlignment="left">
+            <Label Content="Backup" FontSize="25" Foreground="White" />
+            <TextBlock Text="tworzy backup programu lub muzyki" FontSize="12" Margin="5, 0, 0, 0" Foreground="#a1a1a1"/>
+        </StackPanel>
+
+        <!-- OPCJA USTAWIENIA-->
+        <Rectangle Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" Fill="green" />
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
+        <TextBlock Grid.Row="3" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
+        <TextBlock Grid.Row="4" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
+        <TextBlock Grid.Row="5" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
     </Grid>
 </Page>

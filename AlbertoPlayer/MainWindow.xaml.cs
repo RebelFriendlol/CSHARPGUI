@@ -169,8 +169,13 @@ namespace AlbertoPlayer
             Main.Content = new Shop();
         }
 
+        private void Main_Navigated(object sender, System.Windows.Navigation.NavigationEventArgs e)
+        {
+
+        }
+
         //skróty klawiszowe
-        
-        
+
+
     }
 }

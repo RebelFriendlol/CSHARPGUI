@@ -76,7 +76,7 @@
             <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,50,0,0" Grid.Row="1" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1069"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Margin="10,220,0,0" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1062"><Run Language="pl-pl" Text="ALBUMY "/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Margin="10,390,0,0" TextWrapping="Wrap" Foreground="White" FontSize="38" VerticalAlignment="Top" Height="128" Width="1062"><Run Language="pl-pl" Text="PIOSENKI "/></TextBlock>
-            <Frame x:Name="Main" NavigationUIVisibility="Hidden"></Frame>
+            <Frame x:Name="Main" NavigationUIVisibility="Hidden" Navigated="Main_Navigated"></Frame>
         </Grid>
 
     </Grid>
