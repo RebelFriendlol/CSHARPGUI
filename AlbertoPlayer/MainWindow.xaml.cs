@@ -161,7 +161,7 @@ namespace AlbertoPlayer
 
         private void SettingsClick(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Settings();
+            Main.Content = new Settings(this);
         }
 
         private void ShopClick(object sender, RoutedEventArgs e)

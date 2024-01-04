@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mjoot\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {}
+    "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mjoot\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {
+    "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mjoot\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
+        "projectUniqueName": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
         "projectName": "AlbertoPlayer",
-        "projectPath": "C:\\Users\\mjoot\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
-        "packagesPath": "C:\\Users\\mjoot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mjoot\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\obj\\",
+        "projectPath": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
+        "packagesPath": "C:\\Users\\48570\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mjoot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\48570\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -64,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

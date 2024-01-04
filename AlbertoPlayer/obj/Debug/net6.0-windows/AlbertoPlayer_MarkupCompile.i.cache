@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\mjoot\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\
 AlbertoPlayer
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\mjoot\source\repos\CSHARPGUI\AlbertoPlayer\App.xaml
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\App.xaml
 5874795926
 6-798792020
 81629832192
-196-1553197745
+199-596567657
 MainWindow.xaml;pages\Library.xaml;pages\Playlist.xaml;pages\Settings.xaml;pages\Shop.xaml;
 
 True

@@ -181,3 +181,6 @@ C:\Users\mjoot\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\ref
 C:\Users\mjoot\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.pdb
 C:\Users\mjoot\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.genruntimeconfig.cache
 C:\Users\mjoot\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\ref\AlbertoPlayer.dll
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\48570\Source\Repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll

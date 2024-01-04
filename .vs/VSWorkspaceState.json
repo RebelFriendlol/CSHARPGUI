@@ -4,6 +4,6 @@
     "\\AlbertoPlayer",
     "\\AlbertoPlayer\\pages"
   ],
-  "SelectedNode": "\\AlbertoPlayer\\pages\\Settings.xaml",
+  "SelectedNode": "\\AlbertoPlayer\\pages\\Settings.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

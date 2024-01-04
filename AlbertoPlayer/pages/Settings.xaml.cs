@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,35 @@ namespace AlbertoPlayer.pages
     /// </summary>
     public partial class Settings : Page
     {
-        public Settings()
+
+        public string[] names {  get; set; }
+
+        private MainWindow mainWindow;
+
+        public Settings(MainWindow mainWindow)
         {
             InitializeComponent();
+            this.mainWindow = mainWindow;
+
+            names = new string[] { "Poslki", "Angielski", "Niggerzynski" };
+            DataContext = this;
+        }
+
+        private void FileSelect(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openDialog = new OpenFileDialog();
+            openDialog.Filter = "Image files|*.png;*.jpg;*.bmp";
+            openDialog.FilterIndex = 1;
+
+            if (openDialog.ShowDialog() == true)
+            {
+                mainWindow.Logo.Source = new BitmapImage(new Uri(openDialog.FileName));
+            }
+        }
+
+        private void Backup(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

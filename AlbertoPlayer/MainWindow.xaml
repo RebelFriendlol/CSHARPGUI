@@ -62,9 +62,9 @@
 
         <Rectangle Grid.Row="0" Grid.Column="0" Opacity="1" Fill="#111111" />
         <Rectangle Grid.Row="0" Grid.Column="1" Opacity="0.4" Fill="#202020"  />
-        <Image Grid.Row="0" Grid.Column="0" Source="/assets/alberto_logo.png" Margin="1,2,181,2" Cursor="Hand">
+        <Image Grid.Row="0" Grid.Column="0" x:Name="Logo" Source="/assets/alberto_logo.png" Margin="1,2,181,2" Cursor="Hand">
             <Image.OpacityMask>
-                <ImageBrush ImageSource="/assets/alberto_logo.png"/>
+                <ImageBrush  ImageSource="/assets/alberto_logo.png"/>
             </Image.OpacityMask>
         </Image>
         <TextBlock HorizontalAlignment="Left" Margin="100,0,0,0" TextWrapping="Wrap" Text="Nazwa użytkownika itd." VerticalAlignment="Center" FontSize="14" Foreground="White" Width="155"/>

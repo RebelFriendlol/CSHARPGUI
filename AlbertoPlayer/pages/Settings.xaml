@@ -26,9 +26,7 @@
 
 
         <!-- NAPIS USTAWIENIA-->
-        <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
-        <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" BorderBrush="red" BorderThickness="0 0 0 5" />
-        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="Ustawienia" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="55" Foreground="white"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="Ustawienia" Margin="20,0,0,0" HorizontalAlignment="left" VerticalAlignment="Center" FontSize="25" Foreground="white"></TextBlock>
 
         <!-- OPIS USTAWIENIA-->
         <Rectangle Grid.Row="1" Grid.Column="1" Grid.RowSpan="5" Fill="purple" />
@@ -58,11 +56,16 @@
         </StackPanel>
 
         <!-- OPCJA USTAWIENIA-->
-        <Rectangle Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" Fill="green" />
-        <TextBlock Grid.Row="1" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
-        <TextBlock Grid.Row="2" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
+        <Rectangle Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" Fill="Green" />
+        <!-- logo-->
+        <Button Grid.Row="1" Grid.Column="2" Width="100" Height="35" Click="FileSelect"></Button>
+        <!-- language-->
+        <ComboBox Width="100" Height="25" Grid.Column="2" Grid.Row="2" ItemsSource="{Binding names}" Text="Language"/>
+        <!-- studio-->
         <TextBlock Grid.Row="3" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
-        <TextBlock Grid.Row="4" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
-        <TextBlock Grid.Row="5" Grid.Column="2" Text="Tutaj bedzie opcja " VerticalAlignment="center" />
+        <!-- darkmode-->
+        <CheckBox Content="LightMode" IsChecked="{Binding IsLightMode}" Grid.Row="4" Grid.Column="2" Margin="75,25,0,0"></CheckBox>
+        <!-- backup-->
+        <Button Grid.Row="5" Grid.Column="2" Width="100" Height="35" Click="Backup"></Button>
     </Grid>
 </Page>
