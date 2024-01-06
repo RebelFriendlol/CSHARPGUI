@@ -16,7 +16,7 @@
             <ColumnDefinition Width="20*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="15*"/>
+            <RowDefinition Height="10*"/>
             <RowDefinition Height="12*"/>
             <RowDefinition Height="12*"/>
             <RowDefinition Height="12*"/>
@@ -27,7 +27,6 @@
 
         <!-- NAPIS USTAWIENIA-->
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="Ustawienia" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="45" Foreground="white"></TextBlock>
-        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" BorderThickness="0,0,0,4" BorderBrush="red" />
         <Rectangle Grid.Row="1" Grid.Column="1" Grid.RowSpan="5" Fill="DarkGray" Opacity="0.05" />
         <Rectangle Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" Fill="pink" Opacity="0.4" />
 

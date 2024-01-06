@@ -2,6 +2,7 @@
 using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -41,8 +42,6 @@ namespace AlbertoPlayer
         public MainWindow()
         {
             InitializeComponent();
-
-
 
             // Add a Click event handler for the playButton
             playButton.Click += Play_Click;
@@ -154,6 +153,7 @@ namespace AlbertoPlayer
             Main.Content = new Library();
         }
 
+
         private void PlaylistClick(object sender, RoutedEventArgs e)
         {
             Main.Content = new Playlist();
@@ -174,7 +174,12 @@ namespace AlbertoPlayer
 
         }
 
-        //skróty klawiszowe
+        private void StudioClick(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Studio();
+        }
+
+       
 
 
     }

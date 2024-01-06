@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="language\**" />
+    <EmbeddedResource Remove="language\**" />
+    <None Remove="language\**" />
+    <Page Remove="language\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="alberto_logo.png" />
     <None Remove="assets\alberto_logo.png" />
     <None Remove="assets\back.png" />
@@ -50,10 +57,6 @@
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="language\" />
   </ItemGroup>
 
 </Project>
