@@ -205,3 +205,5 @@ C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net
 C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.csproj.CopyComplete
 C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Studio.g.cs
 C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Studio.baml
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Studio.g.cs
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Studio.baml

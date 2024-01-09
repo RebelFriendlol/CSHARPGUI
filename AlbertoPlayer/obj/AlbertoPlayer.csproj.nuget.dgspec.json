@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {}
+    "C:\\Users\\mjoot\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {
+    "C:\\Users\\mjoot\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
+        "projectUniqueName": "C:\\Users\\mjoot\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
         "projectName": "AlbertoPlayer",
-        "projectPath": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
-        "packagesPath": "C:\\Users\\48570\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\obj\\",
+        "projectPath": "C:\\Users\\mjoot\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
+        "packagesPath": "C:\\Users\\mjoot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjoot\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\48570\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mjoot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
