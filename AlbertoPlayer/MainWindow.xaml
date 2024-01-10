@@ -85,7 +85,7 @@
                     Cursor="Hand" 
                     HorizontalAlignment="Center" 
                     Margin="20">
-                <TextBlock Text="Biblioteka ▹"/>
+                <TextBlock Text="Muzyka ▹"/>
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Grid>

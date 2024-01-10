@@ -24,16 +24,71 @@
 
 
         <!-- BANER -->
-        <Rectangle Grid.Row="0"
-                   Grid.Column="0"
-                   Grid.ColumnSpan="3"
-                   Fill="AntiqueWhite"/>
-        <TextBlock Text="TUTAJ BEDZIE BANER"
-                   Grid.ColumnSpan="3"
-                   FontSize="40"
-                   FontFamily="Comic Sans MS"
-                   TextAlignment="Center"
-                   VerticalAlignment="center"/>
+        <Canvas x:Name="imageCanvas" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" ClipToBounds="True" SizeChanged="imageCanvas_SizeChanged">
+            <!-- First Image -->
+            <Viewbox DataContext="{Binding ElementName=imageCanvas}">
+                <StackPanel>
+                    <Rectangle x:Name="firstRectangle" Width="1920" Height="1080">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/assets/Alberto1.png" Stretch="None" AlignmentX="Center" AlignmentY="Center"/>
+                        </Rectangle.Fill>
+                        <Rectangle.RenderTransform>
+                            <TranslateTransform X="-350" Y="-300"/>
+                            <!-- Adjust X and Y values for manual positioning -->
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <TextBlock Text="Alberto" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                </StackPanel>
+            </Viewbox>
+
+            <!-- Second Image (Hidden) -->
+            <Viewbox>
+                <StackPanel>
+                    <Image x:Name="newImage" Source="/assets/Belmondo.jpg" Width="1280" Height="600" Visibility="Hidden">
+                        <Image.Stretch>UniformToFill</Image.Stretch>
+                        <Image.Triggers>
+                            <EventTrigger RoutedEvent="Image.Loaded">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                    Storyboard.TargetName="newImage"
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0" To="1" Duration="0:0:1"/>
+                                        <DoubleAnimation
+                                    Storyboard.TargetName="newImage"
+                                    Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.X)"
+                                    From="0" To="0" Duration="0:0:1"/>
+                                        <DoubleAnimation
+                                    Storyboard.TargetName="newImage"
+                                    Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.Y)"
+                                    From="0" To="-100" Duration="0:0:1"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Image.Triggers>
+                        <Image.RenderTransform>
+                            <TranslateTransform X="0" Y="0"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <TextBlock Text="Belmondo" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0">
+                        <TextBlock.Style>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=newImage, Path=Visibility}" Value="Visible">
+                                        <Setter Property="Opacity" Value="1"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=newImage, Path=Visibility}" Value="Hidden">
+                                        <Setter Property="Opacity" Value="0"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                </StackPanel>
+            </Viewbox>
+        </Canvas>
+
+
 
 
         <!-- SZUKAJKA -->
@@ -70,9 +125,10 @@
 
 
         <ComboBox Grid.Row="1"
-                  Grid.Column="1"
-                  Text="fiut dziekana"
-                  ItemsSource="{Binding sort}" />
+          Grid.Column="1"
+          SelectedValue="{Binding SelectedSort, Mode=TwoWay}"
+          ItemsSource="{Binding sort}" SelectionChanged="ComboBox_SelectionChanged"/>
+
         <Button Grid.Row="1"
                 Grid.Column="2"
                 Content="koszyk"/>
