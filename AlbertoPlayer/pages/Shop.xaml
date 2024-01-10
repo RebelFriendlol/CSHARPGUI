@@ -8,7 +8,85 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Shop">
 
-    <Grid Background="white">
-        <TextBlock Text="strona shop" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="55"></TextBlock>
+    <Grid Background="pink">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+
+        <!-- BANER -->
+        <Rectangle Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Fill="AntiqueWhite"/>
+        <TextBlock Text="TUTAJ BEDZIE BANER"
+                   Grid.ColumnSpan="3"
+                   FontSize="40"
+                   FontFamily="Comic Sans MS"
+                   TextAlignment="Center"
+                   VerticalAlignment="center"/>
+
+
+        <!-- SZUKAJKA -->
+        <Rectangle Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Fill="Aquamarine"/>
+        <TextBox Grid.Row="1"
+                 Grid.Column="0"
+                 x:Name="SearchTermTextBox"
+                 FontSize="24"
+                 TextAlignment="left"
+                 VerticalAlignment="center"/>
+        <TextBlock Grid.Row="1"
+                   Grid.Column="0"
+                   IsHitTestVisible="False" 
+                   Text="Co chcesz kupić?"
+                   FontSize="20"
+                   VerticalAlignment="Center" 
+                   HorizontalAlignment="Left" 
+                   Margin="5,0,0,0" 
+                   Foreground="DarkGray">
+            <TextBlock.Style>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=SearchTermTextBox}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+
+
+        <ComboBox Grid.Row="1"
+                  Grid.Column="1"
+                  Text="fiut dziekana"
+                  ItemsSource="{Binding sort}" />
+        <Button Grid.Row="1"
+                Grid.Column="2"
+                Content="koszyk"/>
+
+
+        <!-- sklep -->
+        <TextBlock Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Grid.RowSpan="3"
+                   Text="piosenki do kupienia"
+                   FontSize="72"
+                   VerticalAlignment="center"
+                   HorizontalAlignment="center"/>
+
     </Grid>
 </Page>
