@@ -10,7 +10,13 @@
     <Compile Update="pages\Library.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="pages\logowanie.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="pages\Playlist.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\rejestracja.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="pages\Settings.xaml.cs">
@@ -30,7 +36,13 @@
     <Page Update="pages\Library.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="pages\logowanie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="pages\Playlist.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\Rejestracja.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="pages\Settings.xaml">
