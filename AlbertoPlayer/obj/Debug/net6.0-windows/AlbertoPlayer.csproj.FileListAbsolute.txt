@@ -284,3 +284,10 @@ C:\Users\admin-gr00\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-window
 C:\Users\admin-gr00\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Shop.baml
 C:\Users\admin-gr00\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Studio.baml
 C:\Users\admin-gr00\Source\Repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\AlbertoPlayer.csproj.CopyComplete
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\Alberto1.png
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\Alberto2.jpg
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\Belmondo.jpg
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\logowanie.g.cs
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Rejestracja.g.cs
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\logowanie.baml
+C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Rejestracja.baml

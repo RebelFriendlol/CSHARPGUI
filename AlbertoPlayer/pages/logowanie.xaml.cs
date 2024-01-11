@@ -20,10 +20,7 @@ namespace AlbertoPlayer.pages
     /// </summary>
     public partial class logowanie : Page
     {
-        public logowanie()
-        {
-            InitializeComponent(); // Corrected method name
-        }
+        
 
         private void logowanie_Initialized(object sender, EventArgs e)
         {

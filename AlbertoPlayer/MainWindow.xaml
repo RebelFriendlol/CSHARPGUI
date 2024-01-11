@@ -10,7 +10,8 @@
         Height="768"
         Width="1366" 
         Background="#101010" 
-        Foreground="{x:Null}">
+        Foreground="{x:Null}"
+        ResizeMode="NoResize">
 
     <Window.Resources>
         <Style x:Key="LibraryPopupStyle" TargetType="Popup">
