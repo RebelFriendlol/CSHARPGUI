@@ -179,8 +179,9 @@ namespace AlbertoPlayer
             Main.Content = new Studio();
         }
 
-       
+        private void Biblioteka_Click(object sender, RoutedEventArgs e)
+        {
 
-
+        }
     }
 }

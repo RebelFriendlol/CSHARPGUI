@@ -65,7 +65,7 @@
         </Style>
     </Page.Resources>
 
-    <Grid Background="#101010">
+    <Grid Background="#181818">
         <Grid.RowDefinitions>
             <RowDefinition Height="20*"/>
             <RowDefinition Height="10*"/>
@@ -82,8 +82,9 @@
         
         <!-- napis-->
         <Border Grid.ColumnSpan="3"
-                BorderBrush="red"
-                BorderThickness="0, 0, 0, 4">
+                Background="#111111"
+                BorderBrush="Crimson"
+                BorderThickness="0, 0, 0, 2">
             <Rectangle Grid.Row="0"
                    Grid.ColumnSpan="3">
             </Rectangle>
@@ -95,13 +96,14 @@
                    FontSize="64" 
                    FontWeight="SemiBold"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="top"/>
+                   VerticalAlignment="top"
+                   />
         
         
         <!-- logowanie -->
         <Rectangle Grid.Row="2"
                    Grid.Column="1"
-                   Fill="crimson"
+                   Fill="#D2042D"
                    RadiusX="10"
                    RadiusY="10"/>
         <StackPanel Grid.Row="2" 
@@ -124,17 +126,19 @@
                          Width="200"
                          Margin="0, 0, 0, 10"
                          VerticalContentAlignment="Center"/>
-            <TextBlock Text="Jezeli nie masz konta ssij pale bo nie ma rejestracji"
+            <TextBlock Text="Nie posiadasz konta?"
                        TextAlignment="Center"
                        Margin="65,0,0,15"/>
             <Button Style="{DynamicResource RoundedButtonStyle}" Width="70" Height="30" 
                     Content="Zaloguj się"
                     Margin="130, 0, 0, 0"
-                    Background="white"
-                    Foreground="black"
+                    Background="White"
+                    Foreground="Black"
                     FontWeight="DemiBold"
-                    BorderThickness="0.3"
-                    BorderBrush="Gray"/>
+                    BorderThickness="0.5"
+                    BorderBrush="black"
+                    Cursor="Hand"/>
+            
 
         </StackPanel>
     </Grid>

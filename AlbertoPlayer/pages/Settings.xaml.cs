@@ -31,8 +31,10 @@ namespace AlbertoPlayer.pages
             InitializeComponent();
             this.mainWindow = mainWindow;
 
-            names = new string[] { "Poslki", "Angielski", "Niggerzynski" };
+
+            names = new string[] { "Polski", "Angielski" };
             DataContext = this;
+
         }
 
         private void FileSelect(object sender, RoutedEventArgs e)
@@ -51,5 +53,11 @@ namespace AlbertoPlayer.pages
         {
 
         }
+
+        
+
+
+
     }
 }
+

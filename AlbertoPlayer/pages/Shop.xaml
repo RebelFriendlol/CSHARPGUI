@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Shop">
 
-    <Grid Background="pink">
+    <Grid Background="#181818">
         <Grid.RowDefinitions>
             <RowDefinition Height="30*"/>
             <RowDefinition Height="10*"/>
@@ -95,13 +95,15 @@
         <Rectangle Grid.Row="1"
                    Grid.Column="0"
                    Grid.ColumnSpan="3"
-                   Fill="Aquamarine"/>
+                   Fill="#111"
+                   />
         <TextBox Grid.Row="1"
                  Grid.Column="0"
                  x:Name="SearchTermTextBox"
                  FontSize="24"
                  TextAlignment="left"
-                 VerticalAlignment="center"/>
+                 VerticalAlignment="center"
+                 Padding="15"/>
         <TextBlock Grid.Row="1"
                    Grid.Column="0"
                    IsHitTestVisible="False" 
@@ -109,7 +111,7 @@
                    FontSize="20"
                    VerticalAlignment="Center" 
                    HorizontalAlignment="Left" 
-                   Margin="5,0,0,0" 
+                   Margin="20,0,0,0" 
                    Foreground="DarkGray">
             <TextBlock.Style>
                 <Style TargetType="{x:Type TextBlock}">
@@ -124,6 +126,7 @@
         </TextBlock>
 
 
+
         <ComboBox Grid.Row="1"
           Grid.Column="1"
           SelectedValue="{Binding SelectedSort, Mode=TwoWay}"
@@ -131,18 +134,11 @@
 
         <Button Grid.Row="1"
                 Grid.Column="2"
-                Content="koszyk"/>
+                Content="koszyk"
+                Background="#fff"/>
 
 
-        <!-- sklep -->
-        <TextBlock Grid.Row="2"
-                   Grid.Column="0"
-                   Grid.ColumnSpan="3"
-                   Grid.RowSpan="3"
-                   Text="piosenki do kupienia"
-                   FontSize="72"
-                   VerticalAlignment="center"
-                   HorizontalAlignment="center"/>
+
 
     </Grid>
 </Page>

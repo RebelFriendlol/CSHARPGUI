@@ -171,7 +171,7 @@ namespace AlbertoPlayer.pages
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // Handle the selection change event if needed
+
         }
 
 

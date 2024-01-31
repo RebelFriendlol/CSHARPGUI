@@ -291,3 +291,10 @@ C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net
 C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Rejestracja.g.cs
 C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\logowanie.baml
 C:\Users\mjoot\Source\Repos\RebelFriendlol\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Rejestracja.baml
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\Alberto1.png
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\Alberto2.jpg
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\bin\Debug\net6.0-windows\assets\Belmondo.jpg
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\logowanie.g.cs
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Rejestracja.g.cs
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\logowanie.baml
+C:\Users\48570\source\repos\CSHARPGUI\AlbertoPlayer\obj\Debug\net6.0-windows\pages\Rejestracja.baml

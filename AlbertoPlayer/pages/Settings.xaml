@@ -35,17 +35,21 @@
                    FontSize="45" 
                    Foreground="white"></TextBlock>
         <Rectangle Grid.Row="1" 
-                   Grid.Column="1" 
-                   Grid.RowSpan="5" 
-                   Fill="DarkGray" 
-                   Opacity="0.05" />
+           Grid.Column="1" 
+           Grid.RowSpan="5" 
+           Fill="#222222" 
+           Opacity="0.5" 
+           Stroke="Black"
+           StrokeThickness="0.5" />
         <Rectangle Grid.Row="1" 
-                   Grid.Column="2" 
-                   Grid.RowSpan="5" 
-                   Fill="pink" 
-                   Opacity="0.4" />
+           Grid.Column="2" 
+           Grid.RowSpan="5" 
+           Fill="Crimson" 
+           Opacity="0.5"
+           Stroke="Black"
+           StrokeThickness="0.3" />
 
-            <!-- USTAWIENIA -->
+        <!-- USTAWIENIA -->
         
         <!-- logo -->
         <StackPanel Grid.Row="1" 
@@ -63,7 +67,7 @@
                 Grid.Column="2" 
                 Width="100" 
                 Height="35" 
-                Click="FileSelect"></Button>
+                Click="FileSelect">Logo</Button>
 
         <!-- language -->
         <StackPanel Grid.Row="2" 
@@ -78,11 +82,12 @@
                        Foreground="#a1a1a1"/>
         </StackPanel>
         <ComboBox Width="100" 
-                  Height="25" 
+                  Height="35" 
                   Grid.Column="2" 
                   Grid.Row="2" 
                   ItemsSource="{Binding names}" 
-                  Text="Language"/>
+                  Text="Language"
+                  />
 
         <!-- studio-->
         <StackPanel Grid.Row="3" 
@@ -96,28 +101,20 @@
                        Margin="5, 0, 0, 0" 
                        Foreground="#a1a1a1"/>
         </StackPanel>
-        <TextBlock Grid.Row="3" 
-                   Grid.Column="2" 
-                   Text="Tutaj bedzie opcja " 
-                   VerticalAlignment="center" />
-
+        
         <!-- darkmode-->
         <StackPanel Grid.Row="4" 
                     Grid.Column="1" 
                     HorizontalAlignment="left">
-            <Label Content="Tryb Nocny" 
+            <Label Content="Tryb Noc/Dzień" 
                    FontSize="25" 
                    Foreground="White" />
-            <TextBlock Text="zmienia wyglad na ciemny" 
+            <TextBlock Text="zmienia wyglad na ciemny i jasny" 
                        FontSize="12" 
                        Margin="5, 0, 0, 0" 
                        Foreground="#a1a1a1"/>
         </StackPanel>
-        <CheckBox Content="LightMode" 
-                  IsChecked="{Binding IsLightMode}" 
-                  Grid.Row="4" 
-                  Grid.Column="2" 
-                  Margin="75,25,0,0"></CheckBox>
+        <Button Content="Light Mode" Grid.Column="2" Grid.Row="4" Height="35" Width="100"/>
 
         <!-- backup-->
         <StackPanel Grid.Row="5" 
@@ -134,6 +131,6 @@
                 Grid.Column="2" 
                 Width="100" 
                 Height="35" 
-                Click="Backup"></Button>
+                Click="Backup">Backup</Button>
     </Grid>
 </Page>
