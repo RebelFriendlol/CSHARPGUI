@@ -113,10 +113,13 @@
         </StackPanel>
         <Button     Grid.Row="1"
                     Grid.Column="0"
-                    Height="30"
+                    Height="40"
                     VerticalAlignment="Bottom"
                     Click="regulaminClick"
-                    Opacity="1">Regulamin</Button>
+                    Background="Purple" 
+                    Foreground="White" 
+                    BorderBrush="{x:Null}"
+                    FontSize="24">Regulamin</Button>
 
 
         <!-- GŁÓWNA ZAWARTOŚĆ -->
