@@ -183,5 +183,11 @@ namespace AlbertoPlayer
         {
 
         }
+
+        private void regulaminClick(object sender, RoutedEventArgs e)
+        {
+            Window1 win1 = new Window1();
+            win1.Show();
+        }
     }
 }

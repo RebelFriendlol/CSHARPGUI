@@ -79,13 +79,13 @@
                    VerticalAlignment="Top"/>
 
             <Button x:Name="library" 
-        Click="LibraryClick" 
-        FontSize="18" 
-        Margin="0, 20, 0, 20" 
-        Background="{x:Null}" 
-        Foreground="White" 
-        BorderBrush="{x:Null}" 
-        Cursor="Hand">Biblioteka</Button>
+                    Click="LibraryClick" 
+                    FontSize="18" 
+                     Margin="0, 20, 0, 20" 
+                    Background="{x:Null}" 
+                    Foreground="White" 
+                    BorderBrush="{x:Null}" 
+                    Cursor="Hand">Biblioteka</Button>
             <Button x:Name="playlistButton" 
                     Click="PlaylistClick" 
                     FontSize="18" 
@@ -111,7 +111,13 @@
                     BorderBrush="{x:Null}" 
                     Cursor="Hand">Sklep</Button>
         </StackPanel>
-        
+        <Button     Grid.Row="1"
+                    Grid.Column="0"
+                    Height="30"
+                    VerticalAlignment="Bottom"
+                    Click="regulaminClick"
+                    Opacity="1">Regulamin</Button>
+
 
         <!-- GŁÓWNA ZAWARTOŚĆ -->
         <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="auto">

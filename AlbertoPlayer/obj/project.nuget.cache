@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "TKvbqlqvyA+akuFj2wiGi39fk18Flsv52CD1LBXliHXTrD1DyC+XBF+7kTy/pnDWd3SuVwByI0wqRPWdVI+dvg==",
+  "dgSpecHash": "aUZCFz11Xqhm+kaH2DlFxoJ/xqSwmTq3A9Vk+MO8NcgKfficEC255cK+pG7wqlUqMZAQ+DqIbvSBZiMkACCggg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\48570\\source\\repos\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
+  "projectFilePath": "C:\\Users\\mjoot\\Source\\Repos\\RebelFriendlol\\CSHARPGUI\\AlbertoPlayer\\AlbertoPlayer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\48570\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
-    "C:\\Users\\48570\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
-    "C:\\Users\\48570\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\48570\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\48570\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    "C:\\Users\\mjoot\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\mjoot\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\mjoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\mjoot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mjoot\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
   ],
   "logs": []
 }
